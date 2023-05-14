@@ -398,11 +398,11 @@ class _CurrencyScreenState extends State<CurrencyScreen> {
           const SizedBox(
             height: 30,
           ),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
+          const Padding(
+            padding: EdgeInsets.all(8.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.start,
-              children: const [
+              children: [
                 Text(
                   "To",
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
